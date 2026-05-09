@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Keystore and signing config files (NEVER commit these)
+/key.properties
+*.jks
+*.keystore
+
+# Trae IDE documents
+.trae/
+
+# Flutter project metadata
+.metadata
